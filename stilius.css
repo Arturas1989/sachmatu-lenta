@@ -1,0 +1,37 @@
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-left: none;
+    border-bottom: none;
+}
+
+.white{
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    position: relative;
+       
+}
+.black{
+    background-color: #803300;
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    vertical-align: middle;
+    position: relative;   
+}
+.coord{
+    text-align: center;
+    border-bottom: none;
+    border-left: none;
+}
+
+img{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
